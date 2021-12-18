@@ -1,0 +1,560 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navigation {
+  width: auto;
+  height: 90px;
+  background-color: rgba(68, 67, 74, 0.9);
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.navigation li {
+  float: left;
+  list-style: none;
+  padding: 31px;
+  position: relative;
+  left: 20%;
+}
+.navigation li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.logo {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  cursor: pointer;
+  width: 90px;
+  height: 80px;
+  border-radius: 0px 12px 12px 0px;
+}
+.nav-area {
+  position: relative;
+}
+.search input {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.nav-area a:hover {
+  /* background-color: white; */
+  color: black;
+  padding: 5px 2px;
+  border-radius: 20px;
+  /* color: black; */
+}
+
+.intro {
+  position: relative;
+  width: auto;
+  background-image: url(./images/1.jpg);
+  /* background-color: black; */
+  /* background-size: contain; */
+}
+.intro video {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.in1 {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  left: 400px;
+  top: 350px;
+  padding: 7px 4px;
+  border-radius: 20px;
+}
+.in2 {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  left: 650px;
+  top: 350px;
+  padding: 7px 4px;
+  border-radius: 20px;
+}
+.in3 {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  left: 900px;
+  top: 350px;
+  padding: 7px 4px;
+  border-radius: 20px;
+}
+.type h1 {
+  position: absolute;
+  color: #ffff;
+  font-size: 40px;
+  left: 500px;
+  top: 300px;
+  text-shadow: 10px 5px 10px gray;
+}
+.cards {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.crd1 {
+  position: absolute;
+  right: 73.5%;
+  top: 125px;
+  width: 290px;
+  height: 350px;
+  background-size: contain;
+  background-image: url(./images/hydraulic-gear-pump-500x500.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 0px 30px;
+  box-shadow: 2px 2px 5px 5px gray;
+}
+.crd1:hover {
+  width: 300px;
+  height: 355px;
+  box-shadow: 4px 4px 12px 12px darkgrey;
+}
+.p1 {
+  /* z-index: 2; */
+  position: absolute;
+  bottom: 10px;
+  left: 65px;
+  font-size: 25px;
+}
+.tag1 {
+  width: 290px;
+  height: auto;
+  position: relative;
+  top: 240px;
+  /* background-color: burlywood; */
+  right: 100px;
+}
+.button1 {
+  position: absolute;
+  bottom: -5px;
+  left: 160px;
+  padding: 10px 50px;
+  border-radius: 10px 0px;
+  background-color: #427ef5;
+}
+.button1 a {
+  text-decoration: none;
+  color: black;
+}
+.button1:hover {
+  background-color: #4242f5;
+  padding: 9px 48px;
+}
+.price {
+  font-size: 25px;
+  position: absolute;
+  bottom: -5px;
+}
+.crd2 {
+  position: absolute;
+  right: 50%;
+  top: 125px;
+  width: 290px;
+  height: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./images/mdesign-gearbox-getriebe-berechnen.1300x500n.jpg);
+  border-radius: 10px;
+  margin: 0px 30px;
+  box-shadow: 2px 2px 5px 5px gray;
+}
+.crd2:hover {
+  width: 300px;
+  height: 355px;
+  box-shadow: 4px 4px 12px 12px darkgrey;
+}
+.p2 {
+  /* z-index: 2; */
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  font-size: 25px;
+}
+.tag2 {
+  width: 290px;
+  height: auto;
+  position: relative;
+  top: 240px;
+  /* background-color: burlywood; */
+  right: 35px;
+}
+
+.button2 {
+  position: absolute;
+  bottom: -5px;
+  left: 160px;
+  padding: 10px 50px;
+  border-radius: 10px 0px;
+  background-color: #427ef5;
+}
+.button2 a {
+  text-decoration: none;
+  color: black;
+}
+.button2:hover {
+  background-color: #4242f5;
+  padding: 9px 48px;
+}
+.price2 {
+  font-size: 25px;
+  position: absolute;
+  bottom: -5px;
+}
+.crd3 {
+  position: absolute;
+  right: 26.5%;
+  top: 125px;
+  width: 290px;
+  height: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./images/alternator.jpg);
+  border-radius: 10px;
+  margin: 0px 30px;
+  box-shadow: 2px 2px 5px 5px gray;
+}
+.crd3:hover {
+  width: 300px;
+  height: 355px;
+  box-shadow: 4px 4px 12px 12px darkgrey;
+}
+.p3 {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  font-size: 25px;
+}
+.tag3 {
+  width: 290px;
+  height: auto;
+  position: relative;
+  top: 240px;
+  /* background-color: burlywood; */
+  left: 35px;
+}
+.button3 {
+  position: absolute;
+  bottom: -5px;
+  left: 160px;
+  padding: 10px 50px;
+  border-radius: 10px 0px;
+  background-color: #427ef5;
+}
+.button3 a {
+  text-decoration: none;
+  color: black;
+}
+.button3:hover {
+  background-color: #4242f5;
+  padding: 9px 48px;
+}
+.price3 {
+  font-size: 25px;
+  position: absolute;
+  bottom: -5px;
+}
+.crd4 {
+  position: absolute;
+  right: 3%;
+  top: 125px;
+  width: 290px;
+  height: 350px;
+  background-size: 345px;
+  background-repeat: no-repeat;
+  background-image: url(./images/piston.jpg);
+  border-radius: 10px;
+  margin: 0px 30px;
+  box-shadow: 2px 2px 5px 5px gray;
+}
+.crd4:hover {
+  width: 300px;
+  height: 355px;
+  box-shadow: 4px 4px 12px 12px darkgrey;
+}
+.p4 {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  font-size: 25px;
+}
+.tag4 {
+  width: 290px;
+  height: auto;
+  position: relative;
+  top: 240px;
+  /* background-color: burlywood; */
+  left: 100px;
+}
+.button4 {
+  position: absolute;
+  bottom: -5px;
+  left: 160px;
+  padding: 10px 50px;
+  border-radius: 10px 0px;
+  background-color: #427ef5;
+}
+.button4 a {
+  text-decoration: none;
+  color: black;
+}
+.button4:hover {
+  background-color: #4242f5;
+  padding: 9px 48px;
+}
+.price4 {
+  font-size: 25px;
+  position: absolute;
+  bottom: -5px;
+}
+.prd {
+  position: absolute;
+  top: 40px;
+  left: 33%;
+  font-size: 40px;
+  text-shadow: 5px 5px 5px darkslategray;
+}
+.input {
+  position: relative;
+}
+/* SIGN IN SECTION */
+.signin {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url(./images/static-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.submit {
+  position: absolute;
+  top: 130px;
+  left: 180px;
+}
+.email {
+  font-size: large;
+  border-radius: 8px;
+  padding: 10px;
+}
+.log {
+  font-size: large;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffff;
+  background-color: darkcyan;
+}
+.offer1 {
+  position: absolute;
+  top: 25px;
+  left: 600px;
+  width: 300px;
+  padding: 50px;
+  height: 150px;
+  font-size: xx-large;
+  color: #ffff;
+  border-left: 1px solid #ffff;
+}
+.offer2 {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  width: 300px;
+  padding: 50px;
+  height: 150px;
+  font-size: xx-large;
+  color: #ffff;
+}
+.message {
+  position: absolute;
+  top: 80px;
+  left: 250px;
+  color: #ffff;
+  font-size: xx-large;
+}
+.Msglogo {
+  position: absolute;
+  top: 75px;
+  left: 180px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.alumni {
+  position: relative;
+  width: auto;
+  height: 310px;
+  /* background-color: tomato; */
+}
+.mar {
+  position: absolute;
+  top: 70px;
+}
+*alumni {
+  margin: 0;
+}
+.mar img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.work {
+  position: absolute;
+  top: 10px;
+  left: 33%;
+  font-size: 40px;
+  /* text-shadow: 2px 3px 5px darkslategray; */
+  /* color: rgb(63, 206, 63); */
+  color: #000;
+}
+/* footer section */
+.foot {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-image: url("./images/sm-background.gif");
+  /* background-color: #f5f2f2; */
+  /* background-image: url("./images/94834598-engrenagens-pretas-em-um-fundo-preto-ilustração-sem-emenda-do-vetor-do-teste-padrão-.jpg"); */
+  background-size: cover;
+}
+.Gif {
+  position: relative;
+  top: 35px;
+  border-radius: 3px;
+}
+.fsignin {
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  width: 50%;
+  height: 300px;
+  /* background-image: url(./images/static-banner.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fsubmit {
+  position: absolute;
+  top: 130px;
+  left: 180px;
+}
+.femail {
+  font-size: large;
+  border-radius: 8px;
+  padding: 10px;
+}
+.flog {
+  font-size: large;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffff;
+  background-color: darkcyan;
+}
+.icons {
+  position: absolute;
+  top: 200px;
+  left: 230px;
+  width: 40%;
+  height: 80px;
+  /* background-color: white; */
+}
+.insta {
+  width: 50px;
+  height: 50px;
+}
+.foffer1 {
+  position: absolute;
+  top: 35px;
+  left: 580px;
+  width: 250px;
+  padding: 50px;
+  height: 140px;
+  font-size: xx-large;
+  color: white;
+  border-left: 1px solid #ffff;
+}
+.foffer2 {
+  position: absolute;
+  top: 35px;
+  left: 868px;
+  width: 250px;
+  padding: 50px;
+  height: 140px;
+  font-size: xx-large;
+  color: white;
+  border-left: 1px solid #ffff;
+}
+.fmessage {
+  position: absolute;
+  top: 80px;
+  left: 250px;
+  color: #ffff;
+  font-size: xx-large;
+}
+.fMsglogo {
+  position: absolute;
+  top: 75px;
+  left: 180px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.foffer1 a {
+  position: absolute;
+  left: 10px;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+}
+.foffer1 a:hover {
+  font-size: 18px;
+  text-decoration: underline;
+}
+.cust1 {
+  position: absolute;
+  left: 28px;
+  top: 0px;
+  font-size: 25px;
+}
+.foffer2 a {
+  position: absolute;
+  left: 10px;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+}
+.foffer2 a:hover {
+  font-size: 18px;
+  text-decoration: underline;
+}
+.cust2 {
+  position: absolute;
+  top: 0px;
+  font-size: 25px;
+}
+.copy {
+  position: relative;
+  width: auto;
+  height: 80px;
+  background-color: rgb(44, 6, 116);
+}
+.dedi {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  color: rgb(179, 170, 170);
+}
